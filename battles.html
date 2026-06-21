@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rap Campus-Battles</title>
+	<link rel="stylesheet" type="text/css" href="Rap campus website.html">
+	<style>
+		body{
+			background: black;
+			color: white;
+			font-family: arial,sans-serif;
+			text-align: center;
+		}
+		nav{
+			background: #111;
+			padding: 20px;
+			border-bottom: 2px solid red;
+		}
+		nav a{
+			color: white;
+			text-decoration: none;
+			margin: 15px;
+		}red
+		h1{
+			color: red;
+			text-shadow: 0 0 15px red;
+		}
+		.battle{
+			width: 90%;
+			max-width: 900px;
+			margin: 20px auto;
+			padding: 25px;
+			border: 2px solid red;
+			background: #111;
+			border-radius:15px ;
+		}
+		.battle h2{
+			color: red;
+			margin-top: 20px;
+			border-left: 5px solid red;
+			padding-left: 10px;
+			transition: 3s;
+		}
+		.battle h2:hover{
+			transform: translateX(10px);
+			text-shadow: 0 0 10px red;
+		}
+		.battle p{
+			margin-left: 15px;
+			margin-bottom: 10px;
+			color: #ccc;
+		}
+		.vs{
+			font-size: 2rem;
+			color: red;
+			margin: 10px;
+		}
+
+	</style>
+</head>
+<body>
+	<nav>
+		<a href="Rap campus website.html">Home</a>
+		<a href="battles.html">Battles</a>
+	</nav>
+	<h1>RAP CAMPUS FIXTUREPEDIA </h1>
+	<div class="battle">
+		<h2>FIX 1-Vault Brawl</h2>
+		<p>Text battle from archives</p>
+		<h2>FIX 2-Pen Chronicles</h2>
+		<p>Storytelling Challenge</p>
+		<h2>FIX 3-Reverse The Hit</h2>
+		<p>Flip and respond Challenge</p>
+		<h2>FIX 4- Beeeeaattt Box or Not</h2>
+		<p>Beat or Acepella Challenge</p>
+		<h2>FIX 5 - Raw Vibes</h2>
+		<p>VN diss,no beat</p>
+		<h2>FIX 6 - Punchline Maniac</h2>
+		<p>Punchline Battle</p>
+		<h2>R.A.W</h2>
+		<p>Freestyle challenge</p>
+		<h2>FIX 8 - Text- Battle</h2>
+		<p>Written Bars Only</p>
+		<h2>FIX 9 - Deadlines</h2>
+		<p>Surviaval Round</p>
+		<h2>FIX 10 - Mayo or Ketch-up</h2>
+		<p>Creative Challenge</p>
+		<h2>FIX 11 - Text Battle</h2>
+		<p>Written Bars Only</p>
+		<h2>Fix 12 - Beatdown Bars</h2>
+		<p>VN with Beat</p>
+		<h2>FIX 13 - Twist</h2>
+		<p>Unexpexted Challenge</p>
+		<h2>FIX 14 - I'm Dissing Who</h2>
+		<p>Self Diss Round</p>
+		<h2>FIX 15 - Pick-A-Flow</h2>
+		<p>Flow adaptation Challenge</p>
+		<h2>FIX 16 - Text Battle</h2>
+		<p>Written Bars Only</p>
+		<h2>FIX 17 - Text Battle</h2>
+		<p>Written Bars Only</p>
+		<h2>FIX 18 - R.A.W</h2>
+		<p>Freestyle Challenge</p>
+		<h2>FIX 19 - Shots To My Frenimies</h2>
+		<p>Diss Challenge</p>
+		<h2>FIX 20 - Smoke Them Out</h2>
+		<p>Elimination Round</p>
+		<h2>FIX 21 # To Escape</h2>
+		<p>Escape Challenge</p>
+		<h2>FIX 22 - The Drop</h2>
+		<p>Full diss Track Round</p>
+		<h1>FINAL FIX - THE DART GAME</h1>
+		<P> Final diss track - Maximum Heat</P>
+	</div>
+   <script>
+   	const fixtures = document.querySelectorALL('.battle h2')
+   	fixtures.forEach(fix=>{
+   		fix.addEventListener('click',() =>{
+   			alart(fix.innerText);
+   		});
+   	});
+   </script>
+</body>
+</html>
