@@ -54,30 +54,16 @@
 		<a href="index.html">Home</a>
 		<a href="contact.Html">Contact</a>
 	</nav>
-    <h1>CONTACT RAP CAMPUS</h1>
-    <form id="contactForm">
-    	<input type="text" id="name" placeholder="Your Name">
-    	<input type="email" id="email" placeholder="Your email">
-    	<textarea id="message" rows="6" placeholder="Your message"></textarea>
-    	<button type="submit">Send Message</button>
-    </form>
-    <script>
-         document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
-
-    const phone = '2349027473986';
-
-    const text = encodeURIComponent(
-        `🎤 New message from Rap Campus:\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`
-    );
-
-    window.open(`https://wa.me/${phone}?text=${text}`, '_blank');
-});
-    </script>
-
+	<div class="contact-box">
+    <h2>CONTACT RAP CAMPUS</h2>
+    <p>
+		Rap Campus is more than a rap group.It's a community of lyricists, Freestyles,
+		Battle rappers and Future Legends.
+		For inquiries, collaborations, contact us below.
+	</p>
+		<p><strong>Email:Rapcampus@gmail.com</strong></p>
+        <p><strong>Phone:+263 787143684</strong></p>
+		<p><strong>Rap Campus</strong>-Where Bars Become Legends</p>
+	</div>
 </body>
 </html>
